@@ -21,7 +21,7 @@ fn main() {
     println!("Connected to {:#?}", identity);
     println!("Writing to {:#?}", INFO_PATH);
 
-    let mut tracker = player.track_progress(1000).unwrap();
+    let mut tracker = player.track_progress(100).unwrap();
     let mut track_id = "".to_string();
     let mut title: String = "".to_string();
     let mut artists: String = "".to_string();
